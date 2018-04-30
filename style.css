@@ -11,24 +11,22 @@
   width: 80%;
   text-align: center;
   padding: 1.2em;
-  margin: 0 auto;
+  margin: 70px auto;
   background-color: #f7f7f7; }
+  .form-container .form-label {
+    font-weight: bold;
+    float: left;
+    color: #333;
+    margin-top: 1.2em; }
+  .form-container .form-input {
+    width: 100%;
+    height: 42px;
+    margin-top: 0.4em;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 8px; }
 
-.form-label {
-  font-weight: bold;
-  float: left;
-  color: #333;
-  margin-top: 1.2em; }
-
-.form-input {
-  width: 100%;
-  height: 42px;
-  margin-top: 0.4em;
-  border: 1px solid #999;
-  border-radius: 4px;
-  padding: 8px; }
-
-.btn {
+.btn-reg {
   display: block;
   color: white;
   border: none;
@@ -37,16 +35,43 @@
   height: 46px;
   width: 100%;
   text-decoration: none;
-  line-height: 46px; }
-
-.btn-bg-reg {
+  line-height: 46px;
   background-color: #4e2969; }
+  .btn-reg:hover {
+    background-color: rgba(78, 41, 105, 0.5);
+    cursor: pointer; }
 
-.btn-bg-login {
+.btn-login {
+  display: block;
+  color: white;
+  border: none;
+  margin-top: 1em;
+  font-size: 1.2em;
+  height: 46px;
+  width: 100%;
+  text-decoration: none;
+  line-height: 46px;
   background-color: #e86bb0; }
+  .btn-login:hover {
+    background-color: rgba(232, 107, 176, 0.5);
+    cursor: pointer; }
 
-.fa-twitter {
-  margin-right: 5px; }
-
-.btn-bg-twitter {
+.btn-twitter {
+  display: block;
+  color: white;
+  border: none;
+  margin-top: 1em;
+  font-size: 1.2em;
+  height: 46px;
+  width: 100%;
+  text-decoration: none;
+  line-height: 46px;
   background-color: #1997f0; }
+  .btn-twitter:hover {
+    background-color: rgba(25, 151, 240, 0.5);
+    cursor: pointer; }
+  .btn-twitter .fab {
+    margin-right: 5px; }
+
+.clear {
+  clear: both; }
